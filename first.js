@@ -5,6 +5,6 @@ let turn0=true;
 boxes.forEach((box) => {
     box.addEventListener("click",()=>{
         console.log("box is clicked");
-        boxes.innerText = "B";
+        box.innerText = "B";
     })
 })
