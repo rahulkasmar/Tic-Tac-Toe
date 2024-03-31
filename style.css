@@ -9,7 +9,7 @@ body{
 .container{
     height: 80vh;
     display: flex;
-    justify-items:center;
+    justify-content: center;
     align-items: center;
    
 }
@@ -28,13 +28,35 @@ body{
     width: 18vmin;
     border-radius: 2vmin;
     font-size: 8vmin;
-    background-color: rgba(184, 19, 19, 0.377);
+    background-color: #ffffc7;
     border: none;
-    text-decoration-color: chocolate;
+    text-decoration-color: black;
 }
 #reset-btn{
     padding: 1rem;
     color: whitesmoke;
     background-color: black;
     border-radius: 5px;
+}
+#new-btn{
+    padding: 1rem;
+    color: whitesmoke;
+    background-color: black;
+    border-radius: 5px;
+}
+#msg{
+    color: #ffffc7;
+    font-size: 6vmin;
+}
+
+.msg-container{
+    height:120vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+.hide{
+    display: none;
 }
